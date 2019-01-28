@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'AMKLocaleDescription_Example' do
+  pod 'AMKLocaleDescription', :path => '../'
+
+  target 'AMKLocaleDescription_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
