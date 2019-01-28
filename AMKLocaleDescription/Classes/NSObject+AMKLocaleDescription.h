@@ -7,10 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
+/** 重写相关方法，使得NSArray、NSDictionary、NSSet等集合类的实例在控制台输出时，能够正常的打印中文，而不是Unicode码 */
 @interface NSObject (AMKLocaleDescription)
 
 @end
-
-NS_ASSUME_NONNULL_END
